@@ -1,0 +1,74 @@
+<div>
+    Place fiteness Trainer appointment
+    <form [formGroup]="fitnessForm" (ngSubmit)="onSubmit()">
+
+        <div>
+          <label for="firstname">
+            First Name
+          </label>
+          <input id="firstname" type="text" formControlName="firstname">
+        </div>
+        <div>
+            <label for="lastname">
+              Last Name
+            </label>
+            <input id="lastname" type="text" formControlName="lastname">
+          </div>
+          <div>
+            <label for="age">
+              Age
+            </label>
+            <input id="age" type="number" formControlName="age">
+          </div>
+          <div>
+            <label for="streetaddress">
+              Street Address
+            </label>
+            <input id="streetaddress" type="text" formControlName="streetaddress">
+          </div>
+      
+        <div>
+          <label for="city">
+            City
+          </label>
+          <input id="city" type="text" formControlName="city">
+        </div>
+
+        <div>
+            <label for="state">
+                State
+            </label>
+            <input id="state" type="text" formControlName="state">
+          </div>
+
+          <div>
+            <label for="country">
+                Country
+            </label>
+            <input id="country" type="text" formControlName="country">
+          </div>
+
+          <div>
+            <label for="pincode">
+                Pincode
+            </label>
+            <input id="pincode" type="text" formControlName="pincode">
+          </div>
+          <div>
+            <label for="trainerpreference">
+                Trainer preference
+            </label>
+            <input id="trainerpreference" type="text" formControlName="trainerpreference">
+          </div>
+          <div>
+            <label for="physiotherapist">
+                Physiotherapist
+            </label>
+            <input id="physiotherapist" type="text" formControlName="physiotherapist">
+          </div>
+      
+        <button class="button" type="submit">Apply For Trainer</button>
+      
+      </form>
+      
+</div>

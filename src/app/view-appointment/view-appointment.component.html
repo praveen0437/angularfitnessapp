@@ -1,0 +1,46 @@
+<div>
+    View Appointment
+    <table>
+        <thead>
+        <tr>
+        <th>Id</th>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Age</th>
+        <th>Phone Number</th>
+        <th>Email</th>
+        <th>Street Address</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Country</th>
+        <th>Pin Code</th>
+        <th>Trainer Pref</th>
+        <th>Physiotherapist</th>
+        <th>Package</th>
+        <th>Price</th>
+        <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of data">
+            
+            <th>{{item.id}}</th>
+        <th>{{item.firstname}}</th>
+        <th>{{item.lastname}}</th>
+        <th>{{item.age}}</th>
+        <th>{{item.phonenumber}}</th>
+        <th>{{item.email}}</th>
+        <th>{{item.streetaddress}}</th>
+        <th>{{item.city}}</th>
+        <th>{{item.state}}</th>
+        <th>{{item.country}}</th>
+        <th>{{item.pincode}}</th>
+        <th>{{item.trainerpreference}}</th>
+        <th>{{item.physiotherapist}}</th>
+        <th>{{item.packages}}</th>
+        <th>{{item.inr}}</th>
+        <th><button>Edit</button><button>Delete</button></th>
+        </tr>
+    </tbody>
+    </table>
+</div>
